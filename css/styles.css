@@ -1,15 +1,15 @@
 .main-content {
-  font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
 /* Header */
 .logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -28,16 +28,19 @@
   letter-spacing: 0.32px;
   text-decoration: none;
 }
-.header-list-item-link:hover {
+.header-list-item-link:hover,
+.header-list-item-link:focus {
   color: #404bbf;
 }
 .header-list-item-link:active {
   color: #404bbf;
 }
+.contacts {
+  font-style: normal;
+}
 .contacts-list {
   list-style-type: none;
 }
-
 .contacts-list-item-link {
   color: #434455;
   font-size: 16px;
@@ -46,7 +49,8 @@
   letter-spacing: 0.32px;
   text-decoration: none;
 }
-.contacts-list-item-link:hover {
+.contacts-list-item-link:hover,
+.contacts-list-item-link:focus {
   color: #404bbf;
 }
 /* Hero */
@@ -55,12 +59,14 @@
 }
 .hero-title {
   color: #fff;
+  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
 }
 .button {
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -69,7 +75,8 @@
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 /* Our advantages */
@@ -95,6 +102,7 @@
 }
 .team-title {
   color: #2e2f42;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -103,6 +111,9 @@
 }
 .team-list {
   list-style-type: none;
+}
+.team-item {
+  background-color: #ffffff;
 }
 .team-member {
   color: #2e2f42;
@@ -120,6 +131,7 @@
 /* Our Portfolio */
 .portfolio-title {
   color: #2e2f42;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
